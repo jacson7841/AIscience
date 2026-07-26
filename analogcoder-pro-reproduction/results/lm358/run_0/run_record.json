@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "run_id": 0,
+  "status": "failed",
+  "model": "qwen3-coder-plus",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "max_repairs": 3,
+  "tokens": {
+    "prompt": 7185,
+    "completion": 2619,
+    "total": 9804
+  },
+  "api_events": [
+    {
+      "label": "initial_generation",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 11.371
+    },
+    {
+      "label": "repair_1",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 6.761
+    },
+    {
+      "label": "repair_2",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 7.718
+    },
+    {
+      "label": "repair_3",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 6.603
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 0,
+      "returncode": 1,
+      "candidate": "attempt_0_candidate.py",
+      "evaluation": "attempt_0_evaluation"
+    },
+    {
+      "attempt": 1,
+      "returncode": 1,
+      "candidate": "attempt_1_candidate.py",
+      "evaluation": "attempt_1_evaluation"
+    },
+    {
+      "attempt": 2,
+      "returncode": 1,
+      "candidate": "attempt_2_candidate.py",
+      "evaluation": "attempt_2_evaluation"
+    },
+    {
+      "attempt": 3,
+      "returncode": 1,
+      "candidate": "attempt_3_candidate.py",
+      "evaluation": "attempt_3_evaluation"
+    }
+  ],
+  "python": "3.13.14 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:26:41) [MSC v.1942 64 bit (AMD64)]",
+  "python_executable": "<active Python 3.13 environment>",
+  "started_at_utc": "2026-07-26T21:00:39.932974+08:00",
+  "finished_at_utc": "2026-07-26T21:01:16.842166+08:00",
+  "elapsed_seconds": 36.909
+}

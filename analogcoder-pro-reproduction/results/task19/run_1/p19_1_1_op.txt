@@ -1,0 +1,14 @@
+voutn	4.992850
+vbias_load	1.000000
+voutp	4.992850
+outnnode	4.867850
+outpnode	4.867850
+drain2	3.776393
+drain1	3.776393
+vbias_tail	1.000000
+tailnode	1.776393
+vlon	0.500000
+vlop	4.500000
+vrfn	2.500000
+vrfp	2.500000
+vdd	5.000000

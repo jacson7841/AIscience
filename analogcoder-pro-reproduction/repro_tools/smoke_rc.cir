@@ -1,0 +1,7 @@
+RC operating-point smoke test
+V1 vin 0 5
+R1 vin vout 1k
+R2 vout 0 1k
+.op
+.print op v(vout)
+.end

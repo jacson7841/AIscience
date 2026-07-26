@@ -1,0 +1,244 @@
+{
+  "canvas": {
+    "width": 1300,
+    "height": 850
+  },
+  "ranks": {
+    "0": 0,
+    "gnd": 0,
+    "sourcenode": 1,
+    "rfp_out": 2,
+    "rfn_out": 2,
+    "voutp": 3,
+    "voutn": 3,
+    "vdd": 4
+  },
+  "node_y": {
+    "0": 125,
+    "gnd": 125,
+    "sourcenode": 270,
+    "rfp_out": 433.0,
+    "rfn_out": 397.0,
+    "voutp": 578.0,
+    "voutn": 542.0,
+    "vdd": 705
+  },
+  "placements": {
+    "M7": {
+      "kind": "M",
+      "x": 650,
+      "drain_y": 270,
+      "source_y": 125,
+      "drain": "SourceNode",
+      "gate": "Vbias",
+      "source": "0",
+      "bulk": "0"
+    },
+    "M1": {
+      "kind": "M",
+      "x": 505,
+      "drain_y": 433.0,
+      "source_y": 270,
+      "drain": "RFp_out",
+      "gate": "Vrfp",
+      "source": "SourceNode",
+      "bulk": "0"
+    },
+    "M2": {
+      "kind": "M",
+      "x": 795,
+      "drain_y": 397.0,
+      "source_y": 270,
+      "drain": "RFn_out",
+      "gate": "Vrfn",
+      "source": "SourceNode",
+      "bulk": "0"
+    },
+    "M3": {
+      "kind": "M",
+      "x": 420.0,
+      "drain_y": 578.0,
+      "source_y": 433.0,
+      "drain": "Voutp",
+      "gate": "Vlop",
+      "source": "RFp_out",
+      "bulk": "0"
+    },
+    "M4": {
+      "kind": "M",
+      "x": 573.3333333333334,
+      "drain_y": 578.0,
+      "source_y": 397.0,
+      "drain": "Voutp",
+      "gate": "Vlon",
+      "source": "RFn_out",
+      "bulk": "0"
+    },
+    "M5": {
+      "kind": "M",
+      "x": 726.6666666666667,
+      "drain_y": 542.0,
+      "source_y": 433.0,
+      "drain": "Voutn",
+      "gate": "Vlon",
+      "source": "RFp_out",
+      "bulk": "0"
+    },
+    "M6": {
+      "kind": "M",
+      "x": 880.0,
+      "drain_y": 542.0,
+      "source_y": 397.0,
+      "drain": "Voutn",
+      "gate": "Vlop",
+      "source": "RFn_out",
+      "bulk": "0"
+    },
+    "RL1": {
+      "kind": "R",
+      "x": 496.6666666666667,
+      "high_y": 705,
+      "low_y": 578.0,
+      "high": "Vdd",
+      "low": "Voutp"
+    },
+    "RL2": {
+      "kind": "R",
+      "x": 803.3333333333334,
+      "high_y": 705,
+      "low_y": 542.0,
+      "high": "Vdd",
+      "low": "Voutn"
+    },
+    "Vbias": {
+      "kind": "V",
+      "x": 125.0,
+      "y": 48,
+      "positive": "Vbias",
+      "negative": "0"
+    },
+    "Vdd": {
+      "kind": "V",
+      "x": 335.0,
+      "y": 48,
+      "positive": "Vdd",
+      "negative": "0"
+    },
+    "Vlon": {
+      "kind": "V",
+      "x": 545.0,
+      "y": 48,
+      "positive": "Vlon",
+      "negative": "0"
+    },
+    "Vlop": {
+      "kind": "V",
+      "x": 755.0,
+      "y": 48,
+      "positive": "Vlop",
+      "negative": "0"
+    },
+    "Vrfn": {
+      "kind": "V",
+      "x": 965.0,
+      "y": 48,
+      "positive": "Vrfn",
+      "negative": "0"
+    },
+    "Vrfp": {
+      "kind": "V",
+      "x": 1175.0,
+      "y": 48,
+      "positive": "Vrfp",
+      "negative": "0"
+    }
+  },
+  "node_points": {
+    "sourcenode": [
+      [
+        650.0,
+        270.0
+      ],
+      [
+        505.0,
+        270.0
+      ],
+      [
+        795.0,
+        270.0
+      ]
+    ],
+    "0": [
+      [
+        650.0,
+        125.0
+      ]
+    ],
+    "rfp_out": [
+      [
+        505.0,
+        433.0
+      ],
+      [
+        420.0,
+        433.0
+      ],
+      [
+        726.6666666666667,
+        433.0
+      ]
+    ],
+    "rfn_out": [
+      [
+        795.0,
+        397.0
+      ],
+      [
+        573.3333333333334,
+        397.0
+      ],
+      [
+        880.0,
+        397.0
+      ]
+    ],
+    "voutp": [
+      [
+        420.0,
+        578.0
+      ],
+      [
+        573.3333333333334,
+        578.0
+      ],
+      [
+        496.6666666666667,
+        578.0
+      ]
+    ],
+    "voutn": [
+      [
+        726.6666666666667,
+        542.0
+      ],
+      [
+        880.0,
+        542.0
+      ],
+      [
+        803.3333333333334,
+        542.0
+      ]
+    ],
+    "vdd": [
+      [
+        496.6666666666667,
+        705.0
+      ],
+      [
+        803.3333333333334,
+        705.0
+      ]
+    ]
+  }
+}

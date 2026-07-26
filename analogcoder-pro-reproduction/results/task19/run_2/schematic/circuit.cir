@@ -1,0 +1,23 @@
+.title Gilbert Cell Mixer
+Vdd Vdd 0 5.0
+Vrfp Vrfp 0 2.5
+Vrfn Vrfn 0 2.5
+Vlop Vlop 0 4.0
+Vlon Vlon 0 1.0
+Vbias_tail Vbias_tail 0 1.0
+Vbias_load Vbias_load 0 4.0
+M1 Node_A Vrfp Node_X Node_X nmos_model l=1e-06 w=5e-05
+M2 Node_B Vrfn Node_Y Node_Y nmos_model l=1e-06 w=5e-05
+M3 Node_X Vlop 0 0 nmos_model l=1e-06 w=5e-05
+M4 Node_X Vlon 0 0 nmos_model l=1e-06 w=5e-05
+M5 Node_Y Vlon 0 0 nmos_model l=1e-06 w=5e-05
+M6 Node_Y Vlop 0 0 nmos_model l=1e-06 w=5e-05
+M9 Node_XY_common Vbias_tail 0 0 nmos_model l=1e-06 w=2e-05
+Rtail1 Node_X Node_XY_common 0.1Ohm
+Rtail2 Node_Y Node_XY_common 0.1Ohm
+M7 Voutp Vbias_load Vdd Vdd pmos_model l=1e-06 w=0.0001
+M8 Voutn Vbias_load Vdd Vdd pmos_model l=1e-06 w=0.0001
+Rload1 Voutp Node_A 1kOhm
+Rload2 Voutn Node_B 1kOhm
+.model nmos_model nmos (kp=0.0001 level=1 vto=0.5)
+.model pmos_model pmos (kp=5e-05 level=1 vto=-0.5)

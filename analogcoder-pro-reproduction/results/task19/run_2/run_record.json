@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "task_id": 19,
+  "task_type": "Mixer",
+  "iteration": 2,
+  "status": "success",
+  "code_model": "qwen3-coder-plus",
+  "vlm_model": "qwen3.7-plus",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "temperature": 0.5,
+  "max_design_attempts": 4,
+  "api_max_retries": 3,
+  "tokens": {
+    "total": 19005,
+    "prompt": 14186,
+    "completion": 4819
+  },
+  "api_events": [
+    {
+      "label": "initial_generation",
+      "model": "qwen3-coder-plus",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 15.992,
+      "tokens": {
+        "prompt": 1354,
+        "completion": 1372,
+        "total": 2726
+      }
+    },
+    {
+      "label": "repair_generation_1",
+      "model": "qwen3-coder-plus",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 13.607,
+      "tokens": {
+        "prompt": 2993,
+        "completion": 1242,
+        "total": 4235
+      }
+    },
+    {
+      "label": "repair_generation_2",
+      "model": "qwen3-coder-plus",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 10.227,
+      "tokens": {
+        "prompt": 4332,
+        "completion": 1078,
+        "total": 5410
+      }
+    },
+    {
+      "label": "repair_generation_3",
+      "model": "qwen3-coder-plus",
+      "attempt": 1,
+      "status": "success",
+      "elapsed_seconds": 10.013,
+      "tokens": {
+        "prompt": 5507,
+        "completion": 1127,
+        "total": 6634
+      }
+    }
+  ],
+  "success_files": [
+    "p19_2_3_success.py"
+  ],
+  "artifacts": [
+    "answer_history.md",
+    "execution_error_0",
+    "execution_error_1",
+    "execution_error_2",
+    "opamp.py",
+    "p19_2_0.py",
+    "p19_2_0_op.py",
+    "p19_2_1.py",
+    "p19_2_2.py",
+    "p19_2_3_figure.png",
+    "p19_2_3_op.py",
+    "p19_2_3_op.txt",
+    "p19_2_3_success.py",
+    "p19_2_messages.json",
+    "prompt_history.txt",
+    "schematic_retry3\\circuit.cir",
+    "schematic_retry3\\netlist_structure.json",
+    "schematic_retry3\\schematic.png",
+    "schematic_retry3\\schematic.svg",
+    "schematic_retry3\\schematic_layout.json",
+    "schematic_retry3\\schematic_manifest.json",
+    "token_info_retry0.txt",
+    "token_info_retry1.txt",
+    "token_info_retry2.txt",
+    "token_info_retry3.txt",
+    "token_summary_final.txt"
+  ],
+  "environment": {
+    "python": "3.13.14 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:26:41) [MSC v.1942 64 bit (AMD64)]",
+    "python_executable": "<active Python 3.13 environment>",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "ngspice_dll": "vendored-ngspice-46"
+  },
+  "started_at_utc": "2026-07-26T20:55:28.896576+08:00",
+  "finished_at_utc": "2026-07-26T20:56:25.565018+08:00",
+  "elapsed_seconds": 56.668
+}

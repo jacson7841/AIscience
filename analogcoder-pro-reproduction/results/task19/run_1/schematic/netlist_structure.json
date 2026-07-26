@@ -1,0 +1,546 @@
+{
+  "title": "Gilbert Cell Mixer",
+  "elements": [
+    {
+      "name": "Vdd",
+      "kind": "V",
+      "nodes": [
+        "Vdd",
+        "0"
+      ],
+      "value_or_model": "5.0",
+      "parameters": [],
+      "source_line": "Vdd Vdd 0 5.0"
+    },
+    {
+      "name": "Vrfp",
+      "kind": "V",
+      "nodes": [
+        "Vrfp",
+        "0"
+      ],
+      "value_or_model": "2.5",
+      "parameters": [],
+      "source_line": "Vrfp Vrfp 0 2.5"
+    },
+    {
+      "name": "Vrfn",
+      "kind": "V",
+      "nodes": [
+        "Vrfn",
+        "0"
+      ],
+      "value_or_model": "2.5",
+      "parameters": [],
+      "source_line": "Vrfn Vrfn 0 2.5"
+    },
+    {
+      "name": "Vlop",
+      "kind": "V",
+      "nodes": [
+        "Vlop",
+        "0"
+      ],
+      "value_or_model": "4.5",
+      "parameters": [],
+      "source_line": "Vlop Vlop 0 4.5"
+    },
+    {
+      "name": "Vlon",
+      "kind": "V",
+      "nodes": [
+        "Vlon",
+        "0"
+      ],
+      "value_or_model": "0.5",
+      "parameters": [],
+      "source_line": "Vlon Vlon 0 0.5"
+    },
+    {
+      "name": "M9",
+      "kind": "M",
+      "nodes": [
+        "TailNode",
+        "Vbias_tail",
+        "0",
+        "0"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=2e-05"
+      ],
+      "source_line": "M9 TailNode Vbias_tail 0 0 nmos_model l=1e-06 w=2e-05"
+    },
+    {
+      "name": "Vbias_tail",
+      "kind": "V",
+      "nodes": [
+        "Vbias_tail",
+        "0"
+      ],
+      "value_or_model": "1.0",
+      "parameters": [],
+      "source_line": "Vbias_tail Vbias_tail 0 1.0"
+    },
+    {
+      "name": "M1",
+      "kind": "M",
+      "nodes": [
+        "Drain1",
+        "Vrfp",
+        "TailNode",
+        "TailNode"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=5e-05"
+      ],
+      "source_line": "M1 Drain1 Vrfp TailNode TailNode nmos_model l=1e-06 w=5e-05"
+    },
+    {
+      "name": "M2",
+      "kind": "M",
+      "nodes": [
+        "Drain2",
+        "Vrfn",
+        "TailNode",
+        "TailNode"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=5e-05"
+      ],
+      "source_line": "M2 Drain2 Vrfn TailNode TailNode nmos_model l=1e-06 w=5e-05"
+    },
+    {
+      "name": "M3",
+      "kind": "M",
+      "nodes": [
+        "OutPNode",
+        "Vlop",
+        "Drain1",
+        "Drain1"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=5e-05"
+      ],
+      "source_line": "M3 OutPNode Vlop Drain1 Drain1 nmos_model l=1e-06 w=5e-05"
+    },
+    {
+      "name": "M4",
+      "kind": "M",
+      "nodes": [
+        "OutPNode",
+        "Vlon",
+        "Drain2",
+        "Drain2"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=5e-05"
+      ],
+      "source_line": "M4 OutPNode Vlon Drain2 Drain2 nmos_model l=1e-06 w=5e-05"
+    },
+    {
+      "name": "M5",
+      "kind": "M",
+      "nodes": [
+        "OutNNode",
+        "Vlop",
+        "Drain2",
+        "Drain2"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=5e-05"
+      ],
+      "source_line": "M5 OutNNode Vlop Drain2 Drain2 nmos_model l=1e-06 w=5e-05"
+    },
+    {
+      "name": "M6",
+      "kind": "M",
+      "nodes": [
+        "OutNNode",
+        "Vlon",
+        "Drain1",
+        "Drain1"
+      ],
+      "value_or_model": "nmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=5e-05"
+      ],
+      "source_line": "M6 OutNNode Vlon Drain1 Drain1 nmos_model l=1e-06 w=5e-05"
+    },
+    {
+      "name": "M7",
+      "kind": "M",
+      "nodes": [
+        "Voutp",
+        "Vbias_load",
+        "Vdd",
+        "Vdd"
+      ],
+      "value_or_model": "pmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=0.0001"
+      ],
+      "source_line": "M7 Voutp Vbias_load Vdd Vdd pmos_model l=1e-06 w=0.0001"
+    },
+    {
+      "name": "M8",
+      "kind": "M",
+      "nodes": [
+        "Voutn",
+        "Vbias_load",
+        "Vdd",
+        "Vdd"
+      ],
+      "value_or_model": "pmos_model",
+      "parameters": [
+        "l=1e-06",
+        "w=0.0001"
+      ],
+      "source_line": "M8 Voutn Vbias_load Vdd Vdd pmos_model l=1e-06 w=0.0001"
+    },
+    {
+      "name": "Vbias_load",
+      "kind": "V",
+      "nodes": [
+        "Vbias_load",
+        "0"
+      ],
+      "value_or_model": "1.0",
+      "parameters": [],
+      "source_line": "Vbias_load Vbias_load 0 1.0"
+    },
+    {
+      "name": "Rload_p",
+      "kind": "R",
+      "nodes": [
+        "OutPNode",
+        "Voutp"
+      ],
+      "value_or_model": "1kOhm",
+      "parameters": [],
+      "source_line": "Rload_p OutPNode Voutp 1kOhm"
+    },
+    {
+      "name": "Rload_n",
+      "kind": "R",
+      "nodes": [
+        "OutNNode",
+        "Voutn"
+      ],
+      "value_or_model": "1kOhm",
+      "parameters": [],
+      "source_line": "Rload_n OutNNode Voutn 1kOhm"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "0",
+      "connections": [
+        {
+          "element": "Vdd",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vrfp",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vrfn",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vlop",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vlon",
+          "terminal_index": 1
+        },
+        {
+          "element": "M9",
+          "terminal_index": 2
+        },
+        {
+          "element": "M9",
+          "terminal_index": 3
+        },
+        {
+          "element": "Vbias_tail",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vbias_load",
+          "terminal_index": 1
+        }
+      ]
+    },
+    {
+      "name": "Drain1",
+      "connections": [
+        {
+          "element": "M1",
+          "terminal_index": 0
+        },
+        {
+          "element": "M3",
+          "terminal_index": 2
+        },
+        {
+          "element": "M3",
+          "terminal_index": 3
+        },
+        {
+          "element": "M6",
+          "terminal_index": 2
+        },
+        {
+          "element": "M6",
+          "terminal_index": 3
+        }
+      ]
+    },
+    {
+      "name": "Drain2",
+      "connections": [
+        {
+          "element": "M2",
+          "terminal_index": 0
+        },
+        {
+          "element": "M4",
+          "terminal_index": 2
+        },
+        {
+          "element": "M4",
+          "terminal_index": 3
+        },
+        {
+          "element": "M5",
+          "terminal_index": 2
+        },
+        {
+          "element": "M5",
+          "terminal_index": 3
+        }
+      ]
+    },
+    {
+      "name": "OutNNode",
+      "connections": [
+        {
+          "element": "M5",
+          "terminal_index": 0
+        },
+        {
+          "element": "M6",
+          "terminal_index": 0
+        },
+        {
+          "element": "Rload_n",
+          "terminal_index": 0
+        }
+      ]
+    },
+    {
+      "name": "OutPNode",
+      "connections": [
+        {
+          "element": "M3",
+          "terminal_index": 0
+        },
+        {
+          "element": "M4",
+          "terminal_index": 0
+        },
+        {
+          "element": "Rload_p",
+          "terminal_index": 0
+        }
+      ]
+    },
+    {
+      "name": "TailNode",
+      "connections": [
+        {
+          "element": "M9",
+          "terminal_index": 0
+        },
+        {
+          "element": "M1",
+          "terminal_index": 2
+        },
+        {
+          "element": "M1",
+          "terminal_index": 3
+        },
+        {
+          "element": "M2",
+          "terminal_index": 2
+        },
+        {
+          "element": "M2",
+          "terminal_index": 3
+        }
+      ]
+    },
+    {
+      "name": "Vbias_load",
+      "connections": [
+        {
+          "element": "M7",
+          "terminal_index": 1
+        },
+        {
+          "element": "M8",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vbias_load",
+          "terminal_index": 0
+        }
+      ]
+    },
+    {
+      "name": "Vbias_tail",
+      "connections": [
+        {
+          "element": "M9",
+          "terminal_index": 1
+        },
+        {
+          "element": "Vbias_tail",
+          "terminal_index": 0
+        }
+      ]
+    },
+    {
+      "name": "Vdd",
+      "connections": [
+        {
+          "element": "Vdd",
+          "terminal_index": 0
+        },
+        {
+          "element": "M7",
+          "terminal_index": 2
+        },
+        {
+          "element": "M7",
+          "terminal_index": 3
+        },
+        {
+          "element": "M8",
+          "terminal_index": 2
+        },
+        {
+          "element": "M8",
+          "terminal_index": 3
+        }
+      ]
+    },
+    {
+      "name": "Vlon",
+      "connections": [
+        {
+          "element": "Vlon",
+          "terminal_index": 0
+        },
+        {
+          "element": "M4",
+          "terminal_index": 1
+        },
+        {
+          "element": "M6",
+          "terminal_index": 1
+        }
+      ]
+    },
+    {
+      "name": "Vlop",
+      "connections": [
+        {
+          "element": "Vlop",
+          "terminal_index": 0
+        },
+        {
+          "element": "M3",
+          "terminal_index": 1
+        },
+        {
+          "element": "M5",
+          "terminal_index": 1
+        }
+      ]
+    },
+    {
+      "name": "Voutn",
+      "connections": [
+        {
+          "element": "M8",
+          "terminal_index": 0
+        },
+        {
+          "element": "Rload_n",
+          "terminal_index": 1
+        }
+      ]
+    },
+    {
+      "name": "Voutp",
+      "connections": [
+        {
+          "element": "M7",
+          "terminal_index": 0
+        },
+        {
+          "element": "Rload_p",
+          "terminal_index": 1
+        }
+      ]
+    },
+    {
+      "name": "Vrfn",
+      "connections": [
+        {
+          "element": "Vrfn",
+          "terminal_index": 0
+        },
+        {
+          "element": "M2",
+          "terminal_index": 1
+        }
+      ]
+    },
+    {
+      "name": "Vrfp",
+      "connections": [
+        {
+          "element": "Vrfp",
+          "terminal_index": 0
+        },
+        {
+          "element": "M1",
+          "terminal_index": 1
+        }
+      ]
+    }
+  ],
+  "models": [
+    ".model nmos_model nmos (kp=0.0001 level=1 vto=0.5)",
+    ".model pmos_model pmos (kp=5e-05 level=1 vto=-0.5)"
+  ],
+  "directives": []
+}

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "checks": {
+    "bias": true,
+    "gain": true,
+    "cutoff": true,
+    "attenuation": true,
+    "no_clipping": true
+  },
+  "metrics": {
+    "bias_volts": 2.499875006295042,
+    "gain_at_100_hz": 4.974985134909435,
+    "cutoff_hz": 999.999999999994,
+    "attenuation_100_hz_to_10_khz_db": 19.991706284167346,
+    "transient_output_amplitude_volts": 0.49749665333365556,
+    "transient_output_min_volts": 2.002378352888627,
+    "transient_output_max_volts": 2.997371659555938
+  }
+}

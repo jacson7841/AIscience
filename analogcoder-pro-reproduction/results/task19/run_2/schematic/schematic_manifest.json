@@ -1,0 +1,9 @@
+{
+  "source": "../p19_2_3_success.py",
+  "spice_netlist": "circuit.cir",
+  "parsed_structure": "netlist_structure.json",
+  "schematic_svg": "schematic.svg",
+  "schematic_png": "schematic.png",
+  "element_count": 20,
+  "node_count": 15
+}

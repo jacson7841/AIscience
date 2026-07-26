@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "models": {
+    "code": "qwen3-coder-plus",
+    "vision": "qwen3.7-plus",
+    "api_style": "OpenAI-compatible Chat Completions"
+  },
+  "environment": {
+    "python": "3.13.14",
+    "pyspice": "1.5",
+    "ngspice": "46",
+    "schemdraw": "0.23"
+  },
+  "task19": {
+    "official_task": "Gilbert Cell mixer",
+    "independent_runs": 3,
+    "successes": 2,
+    "success_rate": 0.6666666667,
+    "total_tokens": 49126,
+    "runs": [
+      {"run": 0, "status": "failed", "successful_attempt": null, "tokens": 19472},
+      {"run": 1, "status": "success", "successful_attempt": 1, "tokens": 10649},
+      {"run": 2, "status": "success", "successful_attempt": 3, "tokens": 19005}
+    ],
+    "direct_reverification": [
+      {"run": 1, "down_hz": 193.9, "down_volts": 0.004086, "up_hz": 2181.8, "up_volts": 0.003578},
+      {"run": 2, "down_hz": 196.7, "down_volts": 0.003770, "up_hz": 2213.1, "up_volts": 0.002568}
+    ]
+  },
+  "lm358_class": {
+    "independent_runs": 4,
+    "successes": 1,
+    "total_tokens": 46322,
+    "runs": [
+      {"run": 0, "status": "failed", "tokens": 9804, "failure_layer": "generated imports and code"},
+      {"run": 1, "status": "failed", "tokens": 14069, "failure_layer": "PySpice API hallucinations"},
+      {"run": 2, "status": "failed", "tokens": 10240, "failure_layer": "electrical gain error"},
+      {"run": 3, "status": "success", "successful_attempt": 3, "tokens": 12209}
+    ],
+    "successful_metrics": {
+      "bias_volts": 2.4998750063,
+      "gain_at_100_hz": 4.9749851349,
+      "cutoff_hz": 1000.0,
+      "attenuation_100_hz_to_10_khz_db": 19.9917062842,
+      "transient_output_amplitude_volts": 0.4974966533,
+      "transient_output_min_volts": 2.0023783529,
+      "transient_output_max_volts": 2.9973716596
+    }
+  }
+}

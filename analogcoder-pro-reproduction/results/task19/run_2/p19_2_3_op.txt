@@ -1,0 +1,14 @@
+voutn	0.720274
+voutp	0.720274
+node_xy_common	0.030740
+node_y	0.030741
+node_b	0.095274
+node_x	0.030741
+node_a	0.095274
+vbias_load	4.000000
+vbias_tail	1.000000
+vlon	1.000000
+vlop	4.000000
+vrfn	2.500000
+vrfp	2.500000
+vdd	5.000000

@@ -1,0 +1,323 @@
+{
+  "canvas": {
+    "width": 1300,
+    "height": 850
+  },
+  "ranks": {
+    "0": 0,
+    "gnd": 0,
+    "node_x": 1,
+    "node_y": 1,
+    "node_xy_common": 1,
+    "node_a": 2,
+    "node_b": 2,
+    "vdd": 3
+  },
+  "node_y": {
+    "0": 125,
+    "gnd": 125,
+    "node_x": 252.0,
+    "node_y": 288.0,
+    "node_xy_common": 270.0,
+    "node_a": 397.0,
+    "node_b": 433.0,
+    "vdd": 560
+  },
+  "placements": {
+    "M3": {
+      "kind": "M",
+      "x": 420.0,
+      "drain_y": 252.0,
+      "source_y": 125,
+      "drain": "Node_X",
+      "gate": "Vlop",
+      "source": "0",
+      "bulk": "0"
+    },
+    "M4": {
+      "kind": "M",
+      "x": 535.0,
+      "drain_y": 252.0,
+      "source_y": 125,
+      "drain": "Node_X",
+      "gate": "Vlon",
+      "source": "0",
+      "bulk": "0"
+    },
+    "M5": {
+      "kind": "M",
+      "x": 650.0,
+      "drain_y": 288.0,
+      "source_y": 125,
+      "drain": "Node_Y",
+      "gate": "Vlon",
+      "source": "0",
+      "bulk": "0"
+    },
+    "M6": {
+      "kind": "M",
+      "x": 765.0,
+      "drain_y": 288.0,
+      "source_y": 125,
+      "drain": "Node_Y",
+      "gate": "Vlop",
+      "source": "0",
+      "bulk": "0"
+    },
+    "M9": {
+      "kind": "M",
+      "x": 880.0,
+      "drain_y": 270.0,
+      "source_y": 125,
+      "drain": "Node_XY_common",
+      "gate": "Vbias_tail",
+      "source": "0",
+      "bulk": "0"
+    },
+    "M1": {
+      "kind": "M",
+      "x": 505,
+      "drain_y": 397.0,
+      "source_y": 252.0,
+      "drain": "Node_A",
+      "gate": "Vrfp",
+      "source": "Node_X",
+      "bulk": "Node_X"
+    },
+    "M2": {
+      "kind": "M",
+      "x": 795,
+      "drain_y": 433.0,
+      "source_y": 288.0,
+      "drain": "Node_B",
+      "gate": "Vrfn",
+      "source": "Node_Y",
+      "bulk": "Node_Y"
+    },
+    "M7": {
+      "kind": "M",
+      "x": 505,
+      "drain_y": 270,
+      "source_y": 560,
+      "drain": "Voutp",
+      "gate": "Vbias_load",
+      "source": "Vdd",
+      "bulk": "Vdd"
+    },
+    "M8": {
+      "kind": "M",
+      "x": 795,
+      "drain_y": 270,
+      "source_y": 560,
+      "drain": "Voutn",
+      "gate": "Vbias_load",
+      "source": "Vdd",
+      "bulk": "Vdd"
+    },
+    "Rload1": {
+      "kind": "R",
+      "x": 505.0,
+      "high_y": 397.0,
+      "low_y": 125,
+      "high": "Node_A",
+      "low": "Voutp"
+    },
+    "Rload2": {
+      "kind": "R",
+      "x": 795.0,
+      "high_y": 433.0,
+      "low_y": 125,
+      "high": "Node_B",
+      "low": "Voutn"
+    },
+    "Rtail1": {
+      "kind": "R",
+      "x": 880.0,
+      "high_y": 252.0,
+      "low_y": 270.0,
+      "high": "Node_X",
+      "low": "Node_XY_common"
+    },
+    "Rtail2": {
+      "kind": "R",
+      "x": 880.0,
+      "high_y": 288.0,
+      "low_y": 270.0,
+      "high": "Node_Y",
+      "low": "Node_XY_common"
+    },
+    "Vbias_load": {
+      "kind": "V",
+      "x": 125.0,
+      "y": 48,
+      "positive": "Vbias_load",
+      "negative": "0"
+    },
+    "Vbias_tail": {
+      "kind": "V",
+      "x": 300.0,
+      "y": 48,
+      "positive": "Vbias_tail",
+      "negative": "0"
+    },
+    "Vdd": {
+      "kind": "V",
+      "x": 475.0,
+      "y": 48,
+      "positive": "Vdd",
+      "negative": "0"
+    },
+    "Vlon": {
+      "kind": "V",
+      "x": 650.0,
+      "y": 48,
+      "positive": "Vlon",
+      "negative": "0"
+    },
+    "Vlop": {
+      "kind": "V",
+      "x": 825.0,
+      "y": 48,
+      "positive": "Vlop",
+      "negative": "0"
+    },
+    "Vrfn": {
+      "kind": "V",
+      "x": 1000.0,
+      "y": 48,
+      "positive": "Vrfn",
+      "negative": "0"
+    },
+    "Vrfp": {
+      "kind": "V",
+      "x": 1175.0,
+      "y": 48,
+      "positive": "Vrfp",
+      "negative": "0"
+    }
+  },
+  "node_points": {
+    "node_x": [
+      [
+        420.0,
+        252.0
+      ],
+      [
+        535.0,
+        252.0
+      ],
+      [
+        505.0,
+        252.0
+      ],
+      [
+        880.0,
+        252.0
+      ]
+    ],
+    "0": [
+      [
+        420.0,
+        125.0
+      ],
+      [
+        535.0,
+        125.0
+      ],
+      [
+        650.0,
+        125.0
+      ],
+      [
+        765.0,
+        125.0
+      ],
+      [
+        880.0,
+        125.0
+      ]
+    ],
+    "node_y": [
+      [
+        650.0,
+        288.0
+      ],
+      [
+        765.0,
+        288.0
+      ],
+      [
+        795.0,
+        288.0
+      ],
+      [
+        880.0,
+        288.0
+      ]
+    ],
+    "node_xy_common": [
+      [
+        880.0,
+        270.0
+      ],
+      [
+        880.0,
+        270.0
+      ],
+      [
+        880.0,
+        270.0
+      ]
+    ],
+    "node_a": [
+      [
+        505.0,
+        397.0
+      ],
+      [
+        505.0,
+        397.0
+      ]
+    ],
+    "node_b": [
+      [
+        795.0,
+        433.0
+      ],
+      [
+        795.0,
+        433.0
+      ]
+    ],
+    "voutp": [
+      [
+        505.0,
+        270.0
+      ],
+      [
+        505.0,
+        125.0
+      ]
+    ],
+    "vdd": [
+      [
+        505.0,
+        560.0
+      ],
+      [
+        795.0,
+        560.0
+      ]
+    ],
+    "voutn": [
+      [
+        795.0,
+        270.0
+      ],
+      [
+        795.0,
+        125.0
+      ]
+    ]
+  }
+}

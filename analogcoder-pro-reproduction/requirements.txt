@@ -1,0 +1,8 @@
+PySpice==1.5
+openai>=2.0,<3
+numpy
+scipy
+pandas
+matplotlib
+cffi
+schemdraw==0.23
