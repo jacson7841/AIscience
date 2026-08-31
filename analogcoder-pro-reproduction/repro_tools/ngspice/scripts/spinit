@@ -1,6 +1,0 @@
-* Portable initialization for the AnalogCoder-Pro reproduction.
-alias exit quit
-alias acct rusage all
-set x11lineararcs
-set num_threads=4
-unset osdi_enabled
