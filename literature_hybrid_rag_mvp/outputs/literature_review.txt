@@ -1,0 +1,105 @@
+研究主题：AI Scientist automated scientific discovery
+
+一、核心论文
+1. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
+   作者：Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, David Ha
+   年份：2024
+   核心贡献：One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to hum...
+   选择理由：主题相关性和学术代表性综合排名靠前。
+   来源：http://arxiv.org/abs/2408.06292v3
+2. The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search
+   作者：Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster
+   年份：2025
+   核心贡献：AI is increasingly playing a pivotal role in transforming how scientific discoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic system capable of producing the first entirely AI generated peer-r...
+   选择理由：主题相关性和学术代表性综合排名靠前。
+   来源：http://arxiv.org/abs/2504.08066v1
+3. AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions
+   作者：Raul Jimenez, Boris Bolliet, Francisco Villaescusa-Navarro, Rabih Zbib, Benjamin Wandelt, David N. Spergel
+   年份：2026
+   核心贡献：Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data analysis, hypothesi...
+   选择理由：主题相关性和学术代表性综合排名靠前。
+   来源：http://arxiv.org/abs/2606.22859v1
+4. AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery
+   作者：Guiyao Tie, Jiawen Shi, Dingjie Song, Yixiao Huang, Ziji Sheng, Xueyang Zhou
+   年份：2026
+   核心贡献：Scientific research is being reshaped by AI systems that move beyond isolated assistance toward longer-horizon workflows spanning literature grounding, hypothesis generation, experimentation, validation, reporting, an...
+   选择理由：主题相关性和学术代表性综合排名靠前。
+   来源：http://arxiv.org/abs/2605.23204v1
+5. Towards a Medical AI Scientist
+   作者：Hongtao Wu, Boyun Zheng, Dingjie Song, Yu Jiang, Jianfeng Gao, Lei Xing
+   年份：2026
+   核心贡献：Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. However, existing AI Scientists remain large...
+   选择理由：主题相关性和学术代表性综合排名靠前。
+   来源：http://arxiv.org/abs/2603.28589v1
+
+二、相关论文
+1. Scaling Laws in Scientific Discovery with AI and Robot Scientists
+   作者：Pengsong Zhang, Heng Zhang, Huazhe Xu, Renjun Xu, Zhenting Wang, Cong Wang
+   年份：2025
+   核心贡献：Scientific discovery is poised for rapid advancement through advanced robotics and artificial intelligence. Current scientific practices face substantial limitations as manual experimentation remains time-consuming an...
+   选择理由：与主题相关，可作为背景或补充材料。
+   来源：http://arxiv.org/abs/2503.22444v2
+2. Automated Scientific Discovery: From Equation Discovery to Autonomous Discovery Systems
+   作者：Stefan Kramer, Mattia Cerrato, Jannis Brugger, Sašo Džeroski, Ross King
+   年份：2023
+   核心贡献：The paper surveys automated scientific discovery, from equation discovery and symbolic regression to autonomous discovery systems and agents. It discusses the individual approaches from a "big picture" perspective and...
+   选择理由：与主题相关，可作为背景或补充材料。
+   来源：http://arxiv.org/abs/2305.02251v2
+3. Accelerating scientific discovery with Co-Scientist
+   作者：Juraj Gottweis, Wei-Hung Weng, Alexander Daryin, Tao Tu, Petar Sirkovic, Artiom Myaskovsky
+   年份：2025
+   核心贡献：Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system...
+   选择理由：与主题相关，可作为背景或补充材料。
+   来源：http://arxiv.org/abs/2502.18864v2
+4. Artificial Intelligence in Education: A Review
+   作者：Lijia Chen, Pingping Chen, Zhijian Lin
+   年份：2020
+   核心贡献：The purpose of this study was to assess the impact of Artificial Intelligence (AI) on education. Premised on a narrative and framework for assessing AI identified from a preliminary analysis, the scope of the study wa...
+   选择理由：与主题相关，可作为背景或补充材料。
+   来源：https://doi.org/10.1109/access.2020.2988510
+5. Conceptualizing AI literacy: An exploratory review
+   作者：Davy Tsz Kit Ng, Jac Ka Lok Leung, Samuel Kai Wah Chu, Shen Qiao
+   年份：2021
+   核心贡献：Artificial Intelligence (AI) has spread across industries (e.g., business, science, art, education) to enhance user experience, improve work efficiency, and create many future job opportunities. However, public unders...
+   选择理由：与主题相关，可作为背景或补充材料。
+   来源：https://doi.org/10.1016/j.caeai.2021.100041
+
+三、已有研究结论
+1. 结论：文献《The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery》显示：The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by our automated reviewer. This approach signifies the be...
+   对应来源：The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (http://arxiv.org/abs/2408.06292v3)
+2. 结论：文献《The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery》显示：In principle, this process can be repeated to iteratively develop ideas in an open-ended fashion, acting like the human scientific community. We demonstrate its versatility by a...
+   对应来源：The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (http://arxiv.org/abs/2408.06292v3)
+3. 结论：文献《The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery》显示：One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier model...
+   对应来源：The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (http://arxiv.org/abs/2408.06292v3)
+4. 结论：文献《Towards a Medical AI Scientist》显示：ideas. It further facilitates evidence-grounded manuscript drafting guided by structured medical compositional conventions and ethical policies. The framework operates under 3 r...
+   对应来源：Towards a Medical AI Scientist (http://arxiv.org/abs/2603.28589v1)
+5. 结论：文献《Towards a Medical AI Scientist》显示：alignment between the proposed method and its implementation, while also demonstrating significantly higher success rates in executable experiments. Double-blind evaluations by...
+   对应来源：Towards a Medical AI Scientist (http://arxiv.org/abs/2603.28589v1)
+
+四、研究不足
+1. 不足：当前证据更集中在系统设计、仿真或文本流程，仍需要进一步核查真实实验闭环和跨场景验证是否充分。
+   类型：evaluation
+   证据类型：cross_paper_inference
+   置信度：medium
+   为什么重要：第四块输出的研究不足要支撑后续假设生成和实验设计，必须指出哪些结论仍缺少强证据。
+   对应来源：The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (http://arxiv.org/abs/2408.06292v3); Towards a Medical AI Scientist (http://arxiv.org/abs/2603.28589v1)
+
+五、来源清单
+1. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery | http://arxiv.org/abs/2408.06292v3
+2. The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | http://arxiv.org/abs/2504.08066v1
+3. AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions | http://arxiv.org/abs/2606.22859v1
+4. AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery | http://arxiv.org/abs/2605.23204v1
+5. Towards a Medical AI Scientist | http://arxiv.org/abs/2603.28589v1
+6. Scaling Laws in Scientific Discovery with AI and Robot Scientists | http://arxiv.org/abs/2503.22444v2
+7. Automated Scientific Discovery: From Equation Discovery to Autonomous Discovery Systems | http://arxiv.org/abs/2305.02251v2
+8. Accelerating scientific discovery with Co-Scientist | http://arxiv.org/abs/2502.18864v2
+9. Artificial Intelligence in Education: A Review | https://doi.org/10.1109/access.2020.2988510
+10. Conceptualizing AI literacy: An exploratory review | https://doi.org/10.1016/j.caeai.2021.100041
+
+六、检索与建库说明
+检索主题：AI Scientist automated scientific discovery, LLM agents for scientific research, literature review RAG hypothesis generation, multi-agent scientific discovery systems
+扩展检索式数量：2
+合并前：24，去重后：17，最终入库：10
+
+Warnings:
+- LLM review failed; used deterministic fallback: Failed to generate valid JSON: Expecting ',' delimiter: line 216 column 6 (char 23443)

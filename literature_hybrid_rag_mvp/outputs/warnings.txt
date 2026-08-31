@@ -1,0 +1,2 @@
+Limited expanded queries from 16 to 2 to reduce API rate-limit risk.
+Dense retrieval disabled by configuration.

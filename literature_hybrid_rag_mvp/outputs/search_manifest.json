@@ -1,0 +1,39 @@
+{
+  "seed_topics": [
+    "AI Scientist automated scientific discovery",
+    "LLM agents for scientific research",
+    "literature review RAG hypothesis generation",
+    "multi-agent scientific discovery systems"
+  ],
+  "expanded_queries": [
+    "AI Scientist automated scientific discovery",
+    "AI Scientist automated scientific discovery literature review"
+  ],
+  "sources": {
+    "arxiv": {
+      "queries": [
+        "AI Scientist automated scientific discovery",
+        "AI Scientist automated scientific discovery literature review"
+      ],
+      "returned": 12,
+      "errors": []
+    },
+    "openalex": {
+      "queries": [
+        "AI Scientist automated scientific discovery",
+        "AI Scientist automated scientific discovery literature review"
+      ],
+      "returned": 12,
+      "errors": []
+    }
+  },
+  "before_dedup": 24,
+  "after_dedup": 17,
+  "verified": 10,
+  "pdf_available": 0,
+  "abstract_only": 10,
+  "selected": 10,
+  "warnings": [
+    "Limited expanded queries from 16 to 2 to reduce API rate-limit risk."
+  ]
+}

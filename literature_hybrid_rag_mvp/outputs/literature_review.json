@@ -1,0 +1,499 @@
+{
+  "topic": "AI Scientist automated scientific discovery",
+  "core_papers": [
+    {
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "authors": [
+        "Chris Lu",
+        "Cong Lu",
+        "Robert Tjarko Lange",
+        "Jakob Foerster",
+        "Jeff Clune",
+        "David Ha"
+      ],
+      "year": 2024,
+      "source": "arxiv,openalex",
+      "url": "http://arxiv.org/abs/2408.06292v3",
+      "pdf_url": "https://arxiv.org/pdf/2408.06292v3.pdf",
+      "reason": "主题相关性和学术代表性综合排名靠前。",
+      "key_contribution": "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to hum...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to hum..."
+        }
+      ]
+    },
+    {
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "authors": [
+        "Yutaro Yamada",
+        "Robert Tjarko Lange",
+        "Cong Lu",
+        "Shengran Hu",
+        "Chris Lu",
+        "Jakob Foerster",
+        "Jeff Clune",
+        "David Ha"
+      ],
+      "year": 2025,
+      "source": "arxiv,openalex",
+      "url": "http://arxiv.org/abs/2504.08066v1",
+      "pdf_url": "https://arxiv.org/pdf/2504.08066v1.pdf",
+      "reason": "主题相关性和学术代表性综合排名靠前。",
+      "key_contribution": "AI is increasingly playing a pivotal role in transforming how scientific discoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic system capable of producing the first entirely AI generated peer-r...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "AI is increasingly playing a pivotal role in transforming how scientific discoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic system capable of producing the first entirely AI generated peer-r..."
+        }
+      ]
+    },
+    {
+      "title": "AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions",
+      "authors": [
+        "Raul Jimenez",
+        "Boris Bolliet",
+        "Francisco Villaescusa-Navarro",
+        "Rabih Zbib",
+        "Benjamin Wandelt",
+        "David N. Spergel",
+        "Thomas Meier",
+        "Jessica Montgomery",
+        "Hana Aliee",
+        "Licia Verde"
+      ],
+      "year": 2026,
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2606.22859v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22859v1.pdf",
+      "reason": "主题相关性和学术代表性综合排名靠前。",
+      "key_contribution": "Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data analysis, hypothesi...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data analysis, hypothesi..."
+        }
+      ]
+    },
+    {
+      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+      "authors": [
+        "Guiyao Tie",
+        "Jiawen Shi",
+        "Dingjie Song",
+        "Yixiao Huang",
+        "Ziji Sheng",
+        "Xueyang Zhou",
+        "Daizong Liu",
+        "Pan Zhou",
+        "Yongchao Chen",
+        "Ran Xu",
+        "Lifang He",
+        "Qingsong Wen",
+        "Manling Li",
+        "Cong Lu",
+        "Shuai Li",
+        "Pengtao Xie",
+        "Yixuan Yuan",
+        "Rui Meng",
+        "Lei Xing",
+        "Lichao Sun",
+        "Caiming Xiong",
+        "Philip S. Yu",
+        "Jianfeng Gao"
+      ],
+      "year": 2026,
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2605.23204v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23204v1.pdf",
+      "reason": "主题相关性和学术代表性综合排名靠前。",
+      "key_contribution": "Scientific research is being reshaped by AI systems that move beyond isolated assistance toward longer-horizon workflows spanning literature grounding, hypothesis generation, experimentation, validation, reporting, an...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "Scientific research is being reshaped by AI systems that move beyond isolated assistance toward longer-horizon workflows spanning literature grounding, hypothesis generation, experimentation, validation, reporting, an..."
+        }
+      ]
+    },
+    {
+      "title": "Towards a Medical AI Scientist",
+      "authors": [
+        "Hongtao Wu",
+        "Boyun Zheng",
+        "Dingjie Song",
+        "Yu Jiang",
+        "Jianfeng Gao",
+        "Lei Xing",
+        "Lichao Sun",
+        "Yixuan Yuan"
+      ],
+      "year": 2026,
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2603.28589v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28589v1.pdf",
+      "reason": "主题相关性和学术代表性综合排名靠前。",
+      "key_contribution": "Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. However, existing AI Scientists remain large...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. However, existing AI Scientists remain large..."
+        }
+      ]
+    }
+  ],
+  "related_papers": [
+    {
+      "title": "Scaling Laws in Scientific Discovery with AI and Robot Scientists",
+      "authors": [
+        "Pengsong Zhang",
+        "Heng Zhang",
+        "Huazhe Xu",
+        "Renjun Xu",
+        "Zhenting Wang",
+        "Cong Wang",
+        "Animesh Garg",
+        "Zhibin Li",
+        "Arash Ajoudani",
+        "Xinyu Liu"
+      ],
+      "year": 2025,
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2503.22444v2",
+      "pdf_url": "https://arxiv.org/pdf/2503.22444v2.pdf",
+      "reason": "与主题相关，可作为背景或补充材料。",
+      "key_contribution": "Scientific discovery is poised for rapid advancement through advanced robotics and artificial intelligence. Current scientific practices face substantial limitations as manual experimentation remains time-consuming an...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "Scientific discovery is poised for rapid advancement through advanced robotics and artificial intelligence. Current scientific practices face substantial limitations as manual experimentation remains time-consuming an..."
+        }
+      ]
+    },
+    {
+      "title": "Automated Scientific Discovery: From Equation Discovery to Autonomous Discovery Systems",
+      "authors": [
+        "Stefan Kramer",
+        "Mattia Cerrato",
+        "Jannis Brugger",
+        "Sašo Džeroski",
+        "Ross King"
+      ],
+      "year": 2023,
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2305.02251v2",
+      "pdf_url": "https://arxiv.org/pdf/2305.02251v2.pdf",
+      "reason": "与主题相关，可作为背景或补充材料。",
+      "key_contribution": "The paper surveys automated scientific discovery, from equation discovery and symbolic regression to autonomous discovery systems and agents. It discusses the individual approaches from a \"big picture\" perspective and...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "The paper surveys automated scientific discovery, from equation discovery and symbolic regression to autonomous discovery systems and agents. It discusses the individual approaches from a \"big picture\" perspective and..."
+        }
+      ]
+    },
+    {
+      "title": "Accelerating scientific discovery with Co-Scientist",
+      "authors": [
+        "Juraj Gottweis",
+        "Wei-Hung Weng",
+        "Alexander Daryin",
+        "Tao Tu",
+        "Petar Sirkovic",
+        "Artiom Myaskovsky",
+        "Grzegorz Glowaty",
+        "Felix Weissenberger",
+        "Alessio Orlandi",
+        "Dan Popovici",
+        "Anil Palepu",
+        "Keran Rong",
+        "Ryutaro Tanno",
+        "Khaled Saab",
+        "Fan Zhang",
+        "Jacob Blum",
+        "Andrew Carroll",
+        "Kavita Kulkarni",
+        "Nenad Tomasev",
+        "Dina Zverinski",
+        "Ivor Rendulic",
+        "Elahe Vedadi",
+        "Florian Hasler",
+        "Luka Rimanic",
+        "Marina Boia",
+        "Ivan Budiselic",
+        "Ben Feinstein",
+        "Mathias Bellaiche",
+        "Tom Sheffer",
+        "Jan Freyberg",
+        "Jeremy Ratcliff",
+        "Ottavia Bertolli",
+        "Katherine Chou",
+        "Avinatan Hassidim",
+        "Burak Gokturk",
+        "Amin Vahdat",
+        "Yuan Guan",
+        "Vikram Dhillon",
+        "Eeshit Dhaval Vaishnav",
+        "Byron Lee",
+        "Tiago R D Costa",
+        "José R Penadés",
+        "Gary Peltz",
+        "Yossi Matias",
+        "James Manyika",
+        "Demis Hassabis",
+        "Yunhan Xu",
+        "Pushmeet Kohli",
+        "Annalisa Pawlosky",
+        "Alan Karthikesalingam",
+        "Vivek Natarajan"
+      ],
+      "year": 2025,
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2502.18864v2",
+      "pdf_url": "https://arxiv.org/pdf/2502.18864v2.pdf",
+      "reason": "与主题相关，可作为背景或补充材料。",
+      "key_contribution": "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system..."
+        }
+      ]
+    },
+    {
+      "title": "Artificial Intelligence in Education: A Review",
+      "authors": [
+        "Lijia Chen",
+        "Pingping Chen",
+        "Zhijian Lin"
+      ],
+      "year": 2020,
+      "source": "openalex",
+      "url": "https://doi.org/10.1109/access.2020.2988510",
+      "pdf_url": "",
+      "reason": "与主题相关，可作为背景或补充材料。",
+      "key_contribution": "The purpose of this study was to assess the impact of Artificial Intelligence (AI) on education. Premised on a narrative and framework for assessing AI identified from a preliminary analysis, the scope of the study wa...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "The purpose of this study was to assess the impact of Artificial Intelligence (AI) on education. Premised on a narrative and framework for assessing AI identified from a preliminary analysis, the scope of the study wa..."
+        }
+      ]
+    },
+    {
+      "title": "Conceptualizing AI literacy: An exploratory review",
+      "authors": [
+        "Davy Tsz Kit Ng",
+        "Jac Ka Lok Leung",
+        "Samuel Kai Wah Chu",
+        "Shen Qiao"
+      ],
+      "year": 2021,
+      "source": "openalex",
+      "url": "https://doi.org/10.1016/j.caeai.2021.100041",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666920X21000357/pdf",
+      "reason": "与主题相关，可作为背景或补充材料。",
+      "key_contribution": "Artificial Intelligence (AI) has spread across industries (e.g., business, science, art, education) to enhance user experience, improve work efficiency, and create many future job opportunities. However, public unders...",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Abstract",
+          "summary": "Artificial Intelligence (AI) has spread across industries (e.g., business, science, art, education) to enhance user experience, improve work efficiency, and create many future job opportunities. However, public unders..."
+        }
+      ]
+    }
+  ],
+  "existing_conclusions": [
+    {
+      "claim": "文献《The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery》显示：The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by our automated reviewer. This approach signifies the be...",
+      "supporting_sources": [
+        {
+          "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+          "page": null,
+          "url": "http://arxiv.org/abs/2408.06292v3",
+          "section": "Abstract"
+        }
+      ]
+    },
+    {
+      "claim": "文献《The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery》显示：In principle, this process can be repeated to iteratively develop ideas in an open-ended fashion, acting like the human scientific community. We demonstrate its versatility by a...",
+      "supporting_sources": [
+        {
+          "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+          "page": null,
+          "url": "http://arxiv.org/abs/2408.06292v3",
+          "section": "Abstract"
+        }
+      ]
+    },
+    {
+      "claim": "文献《The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery》显示：One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier model...",
+      "supporting_sources": [
+        {
+          "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+          "page": null,
+          "url": "http://arxiv.org/abs/2408.06292v3",
+          "section": "Abstract"
+        }
+      ]
+    },
+    {
+      "claim": "文献《Towards a Medical AI Scientist》显示：ideas. It further facilitates evidence-grounded manuscript drafting guided by structured medical compositional conventions and ethical policies. The framework operates under 3 r...",
+      "supporting_sources": [
+        {
+          "title": "Towards a Medical AI Scientist",
+          "page": null,
+          "url": "http://arxiv.org/abs/2603.28589v1",
+          "section": "Abstract"
+        }
+      ]
+    },
+    {
+      "claim": "文献《Towards a Medical AI Scientist》显示：alignment between the proposed method and its implementation, while also demonstrating significantly higher success rates in executable experiments. Double-blind evaluations by...",
+      "supporting_sources": [
+        {
+          "title": "Towards a Medical AI Scientist",
+          "page": null,
+          "url": "http://arxiv.org/abs/2603.28589v1",
+          "section": "Abstract"
+        }
+      ]
+    }
+  ],
+  "research_gaps": [
+    {
+      "gap": "当前证据更集中在系统设计、仿真或文本流程，仍需要进一步核查真实实验闭环和跨场景验证是否充分。",
+      "gap_type": "evaluation",
+      "evidence_type": "cross_paper_inference",
+      "why_it_matters": "第四块输出的研究不足要支撑后续假设生成和实验设计，必须指出哪些结论仍缺少强证据。",
+      "supporting_sources": [
+        {
+          "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+          "page": null,
+          "url": "http://arxiv.org/abs/2408.06292v3",
+          "section": "Abstract"
+        },
+        {
+          "title": "Towards a Medical AI Scientist",
+          "page": null,
+          "url": "http://arxiv.org/abs/2603.28589v1",
+          "section": "Abstract"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "source_map": [
+    {
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "page": "",
+      "url": "http://arxiv.org/abs/2408.06292v3",
+      "section": ""
+    },
+    {
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "page": "",
+      "url": "http://arxiv.org/abs/2504.08066v1",
+      "section": ""
+    },
+    {
+      "title": "AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions",
+      "page": "",
+      "url": "http://arxiv.org/abs/2606.22859v1",
+      "section": ""
+    },
+    {
+      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+      "page": "",
+      "url": "http://arxiv.org/abs/2605.23204v1",
+      "section": ""
+    },
+    {
+      "title": "Towards a Medical AI Scientist",
+      "page": "",
+      "url": "http://arxiv.org/abs/2603.28589v1",
+      "section": ""
+    },
+    {
+      "title": "Scaling Laws in Scientific Discovery with AI and Robot Scientists",
+      "page": "",
+      "url": "http://arxiv.org/abs/2503.22444v2",
+      "section": ""
+    },
+    {
+      "title": "Automated Scientific Discovery: From Equation Discovery to Autonomous Discovery Systems",
+      "page": "",
+      "url": "http://arxiv.org/abs/2305.02251v2",
+      "section": ""
+    },
+    {
+      "title": "Accelerating scientific discovery with Co-Scientist",
+      "page": "",
+      "url": "http://arxiv.org/abs/2502.18864v2",
+      "section": ""
+    },
+    {
+      "title": "Artificial Intelligence in Education: A Review",
+      "page": "",
+      "url": "https://doi.org/10.1109/access.2020.2988510",
+      "section": ""
+    },
+    {
+      "title": "Conceptualizing AI literacy: An exploratory review",
+      "page": "",
+      "url": "https://doi.org/10.1016/j.caeai.2021.100041",
+      "section": ""
+    }
+  ],
+  "warnings": [
+    "LLM review failed; used deterministic fallback: Failed to generate valid JSON: Expecting ',' delimiter: line 216 column 6 (char 23443)"
+  ],
+  "search_manifest": {
+    "seed_topics": [
+      "AI Scientist automated scientific discovery",
+      "LLM agents for scientific research",
+      "literature review RAG hypothesis generation",
+      "multi-agent scientific discovery systems"
+    ],
+    "expanded_queries": [
+      "AI Scientist automated scientific discovery",
+      "AI Scientist automated scientific discovery literature review"
+    ],
+    "sources": {
+      "arxiv": {
+        "queries": [
+          "AI Scientist automated scientific discovery",
+          "AI Scientist automated scientific discovery literature review"
+        ],
+        "returned": 12,
+        "errors": []
+      },
+      "openalex": {
+        "queries": [
+          "AI Scientist automated scientific discovery",
+          "AI Scientist automated scientific discovery literature review"
+        ],
+        "returned": 12,
+        "errors": []
+      }
+    },
+    "before_dedup": 24,
+    "after_dedup": 17,
+    "verified": 10,
+    "pdf_available": 0,
+    "abstract_only": 10,
+    "selected": 10,
+    "warnings": [
+      "Limited expanded queries from 16 to 2 to reduce API rate-limit risk."
+    ]
+  }
+}
